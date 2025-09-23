@@ -32,5 +32,5 @@ This project eliminates the need for manual PDF downloads and rate extraction â€
 
 ```bash
 git clone https://github.com/Vista0/zig-rate.git
-cd rbz-usd-scraper
+cd zig-rate
 
