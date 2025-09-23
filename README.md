@@ -1,20 +1,36 @@
-Description:
+# 🏦 RBZ ZIG Rate Scraper  
 
-This project automates the extraction of USD mid-rates from the Reserve Bank of Zimbabwe (RBZ) website. It uses Selenium for automated browsing, PyMuPDF (fitz) for PDF parsing, and Pandas to store the results in a structured Excel file.
-The script loops through a list of specified months, filters the RBZ exchange rates page, extracts links to daily exchange rate PDFs, parses each PDF to retrieve the USD mid-rate, and saves all data in chronological order to an Excel file (all-rates.xlsx).
+A Python automation tool that extracts **ZIG rate** from the **Reserve Bank of Zimbabwe (RBZ)** website, parses PDF documents, and saves all results into a clean, structured Excel file.  
 
-Key Features:
+This project eliminates the need for manual PDF downloads and rate extraction — perfect for **financial analysts**, **economists**, and **data scientists** who need reliable exchange rate data.  
 
-✅ Fully automated browsing of RBZ exchange rates page
-✅ Extracts all daily USD mid-rates for given months
-✅ Handles PDF downloads and text parsing
-✅ Saves clean, structured, and sorted data to Excel
-✅ Error handling for missing months or failed downloads
+---
 
-Tech Stack:
+## 🚀 Features  
 
-Python 3
-Selenium (Chrome WebDriver)
-PyMuPDF (fitz)
-Pandas
-Requests
+- ✅ **Automated Web Navigation** – Filters RBZ pages by month & year  
+- ✅ **PDF Parsing** – Extracts USD mid-rate values from downloaded files  
+- ✅ **Structured Data Output** – Saves results to `all-rates.xlsx`  
+- ✅ **Multi-Month Support** – Scrapes multiple months in one run  
+- ✅ **Error Handling** – Skips missing files gracefully  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Python 3**  
+- **Selenium** – For automated browser control  
+- **PyMuPDF (fitz)** – For extracting text from PDF files  
+- **Pandas** – For storing and cleaning extracted data  
+- **Requests** – For downloading PDF files  
+
+---
+
+## 📦 Installation  
+
+### 1️⃣ Clone the Repository  
+
+```bash
+git clone https://github.com/Vista0/zig-rate.git
+cd rbz-usd-scraper
+
